@@ -59,6 +59,9 @@ p {
 /* HEADER */
 
 header {
+  position: fixed;
+  top: 0;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -107,7 +110,7 @@ nav li:focus {
   background-color: black;
   background-size: cover;
   background-position: center;
-  width: 100vw;
+  max-width: 100vw;
   height: 100vh;
 }
 
@@ -132,7 +135,7 @@ nav li:focus {
 
 .main-features img {
   height: 100px;
-  width: 120px;
+  width: auto;
 }
 
 .main-features .section-title {
@@ -175,7 +178,7 @@ nav li:focus {
 
 .spotify-app-image {
   width: 300px;
-  height: 550px;
+  height: auto;
 }
 
 .first-block {
